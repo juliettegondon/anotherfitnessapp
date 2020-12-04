@@ -1,5 +1,5 @@
-// export model with db model
+// export model with db models
 module.exports = {
-    workout: require('./workout')
+    Workout: require('./workout')
   };
   

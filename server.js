@@ -1,10 +1,10 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
-const path = require("path")
+/* const path = require("path") */
 
 //database connection
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 //import model workout.js -- we will be using for app
 const db = require("./models")
@@ -25,7 +25,7 @@ mongoose.connect("mongodb://localhost/workout", {
   useFindAndModify: false
 });
 
-// using our API routes files
+// requiring our API routes files
 app.use(require("./routes/api.js"));
 app.use(require("./routes/html.js"));
 
