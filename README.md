@@ -1,5 +1,5 @@
 
-# noSQL homework - Fitness Tracker
+# noSQL project - Fitness Tracker
 https://tranquil-thicket-49664.herokuapp.com/
 
   ## Description
